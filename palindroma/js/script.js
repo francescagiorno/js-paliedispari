@@ -9,10 +9,10 @@ function invertoParola (inputString){
 }
 
 //seconda funzione per capire se la parol è palindroma;
- function isPalindroma(parolaUtente){
+ function isPalindroma(parola){
    var palindroma = false;
 
-   if (parolaUtente == invertoParola(inputString)){
+   if (parola == invertoParola(parola)){
     var palindroma = true;
 
    }
@@ -20,5 +20,10 @@ function invertoParola (inputString){
    return palindroma
 
  }
- alert("La parola è palindroma");
- console.log("La parola è palindroma");
+
+ if ( isPalindroma (parolaUtente)){
+   alert("La parola è palindroma");
+   console.log("La parola è palindroma");
+ } else {
+   alert("La parola non è palindroma");
+ }
