@@ -14,8 +14,11 @@ function invertoParola (inputString){
 
    if (parolaUtente == invertoParola(inputString)){
     var palindroma = true;
-     alert("La parola è palindroma");
-     console.log("La parola è palindroma");
+
    }
+
    return palindroma
+
  }
+ alert("La parola è palindroma");
+ console.log("La parola è palindroma");
