@@ -15,11 +15,11 @@ document.getElementById("somma").innerHTML = "il totale è : " + somma;
 
 //pari o dispari
 function evenOrOdd(){
-  if (somma % 2 == 0 && choiceNumber == 2){
+  if (somma % 2 == 0 && choiseEvenOdd== 2){
     document.getElementById('endNumber').innerHTML = "hai vinto!!!";
-  } else if (somma % 2 == 0 &&  choiceNumber == 1){
+  } else if (somma % 2 == 0 &&  choiseEvenOddr == 1){
     document.getElementById('endNumber').innerHTML = "Hai perso!";
-  } else if (somma % 2 ==1 && choiceNumber == 1) {
+  } else if (somma % 2 ==1 && choiseEvenOdd == 1) {
     document.getElementById('endNumber').innerHTML ="hai perso!";
   }else {
     document.getElementById('endNumber').innerHTML ="hai vinto!!!";
